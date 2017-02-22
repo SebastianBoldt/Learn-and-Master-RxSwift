@@ -1,4 +1,4 @@
-# Learn-and-Master-RxSwift
+# Learn and Master RxSwift
 
 > Everything in Rx is an Observable Sequence or a thing that works with a observable sequence.
 
