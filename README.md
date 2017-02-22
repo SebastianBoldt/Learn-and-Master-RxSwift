@@ -21,5 +21,7 @@ Rx implements two common patterns:
 * Marble Diagrams are interactive Diagrams that show you how rx operators transform observable sequences 
 
 Web-App: http://rxmarbles.com
+
 iOS-App: https://itunes.apple.com/com/app/rxmarbles/id1087272442?mt=8
+
 Android: https://play.google.com/store/apps/details?id=com.moonfleet.rxmarbles
