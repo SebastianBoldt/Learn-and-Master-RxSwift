@@ -24,6 +24,7 @@
 		15041C4C1E5E362E002DEEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15041C4E1E5E362E002DEEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15041C541E5E3677002DEEE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15041C571E5E3B5F002DEEE4 /* LearnAndMaster.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LearnAndMaster.playground; sourceTree = "<group>"; };
 		187C3F69C54E813484D810FF /* Pods_Learn_and_Master_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn_and_Master_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BB3237EBB68BE0A5C8ADD6 /* Pods-Learn-and-Master-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn-and-Master-RxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learn-and-Master-RxSwift/Pods-Learn-and-Master-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		AB04EEB2423ECD23CCC98BD0 /* Pods-Learn-and-Master-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn-and-Master-RxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learn-and-Master-RxSwift/Pods-Learn-and-Master-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		15041C411E5E362E002DEEE4 /* Learn-and-Master-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				15041C571E5E3B5F002DEEE4 /* LearnAndMaster.playground */,
 				15041C421E5E362E002DEEE4 /* AppDelegate.swift */,
 				15041C441E5E362E002DEEE4 /* ViewController.swift */,
 				15041C461E5E362E002DEEE4 /* Main.storyboard */,

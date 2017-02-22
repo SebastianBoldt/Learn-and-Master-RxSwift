@@ -16,3 +16,10 @@ Rx implements two common patterns:
 * If a sequence ends normally it sends a completed event
 * If you want to cancel a description of a sequence you can do that by calling dispose on it
 * You can also add the subscription to a disposebag which will cancel the description for you automatically on deinit
+
+#Marble Diagrams
+* Marble Diagrams are interactive Diagrams that show you how rx operators transform observable sequences 
+
+Web-App: http://rxmarbles.com
+iOS-App: https://itunes.apple.com/com/app/rxmarbles/id1087272442?mt=8
+Android: https://play.google.com/store/apps/details?id=com.moonfleet.rxmarbles
