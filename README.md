@@ -1,4 +1,4 @@
-# Learn-and-Master-RxSwift
+# Learn and Master RxSwift
 
 > Everything in Rx is an Observable Sequence or a thing that works with a observable sequence.
 
@@ -21,7 +21,9 @@ Rx implements two common patterns:
 * Marble Diagrams are interactive Diagrams that show you how rx operators transform observable sequences 
 
 Web-App: http://rxmarbles.com
+
 iOS-App: https://itunes.apple.com/com/app/rxmarbles/id1087272442?mt=8
+
 Android: https://play.google.com/store/apps/details?id=com.moonfleet.rxmarbles
 
 #Subjects 
