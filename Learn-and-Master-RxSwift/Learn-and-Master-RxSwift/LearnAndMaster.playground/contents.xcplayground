@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1.Observable Sequences'/>
+        <page name='2.PublishSubject'/>
+        <page name='3.Behaviour Subject'/>
+        <page name='4.ReplaySubject'/>
+        <page name='Untitled Page'/>
+    </pages>
 </playground>
