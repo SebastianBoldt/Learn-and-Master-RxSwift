@@ -12,6 +12,7 @@ let observable = Observable.of("Hello World!")
 let bag = DisposeBag()
 
 // An event is just an enum that can be .next, .error or .completed
+// You can subscribe to events using subscribe
 let subscription = observable.subscribe { (event : Event<String>) in
     switch event {
     case .next(let value):
@@ -23,4 +24,9 @@ let subscription = observable.subscribe { (event : Event<String>) in
     }
 }.addDisposableTo(bag)
 
+// You can also subscribe on specific events 
+let subscribeJustToErrors = observable.subscribe(onError:{
+    // Print just on error case 
+    print($0)
+})
 //: [Next](@next)

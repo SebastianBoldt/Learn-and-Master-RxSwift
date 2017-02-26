@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='1.Observable Sequences'/>
+        <page name='1.Basics'/>
         <page name='2.PublishSubject'/>
         <page name='3.Behaviour Subject'/>
         <page name='4.ReplaySubject'/>
-        <page name='Untitled Page'/>
+        <page name='5.Variable'/>
+        <page name='6.Transform Observable Sequences'/>
+        <page name='Misc'/>
     </pages>
 </playground>
