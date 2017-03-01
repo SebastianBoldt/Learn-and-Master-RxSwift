@@ -39,8 +39,3 @@ subscription1.dispose()
 publishSubject.onNext("Subscription2 will receive")
 //: [Next](@next)
 
-let observable = Observable.just("Hello World")
-let subscription = observable.subscribe {
-    print($0)
-}
-subscription.dispose()

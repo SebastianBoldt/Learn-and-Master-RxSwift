@@ -12,7 +12,7 @@ let bag = DisposeBag()
 // Lets create a BeviourSubject
 // A behaviour Subject needs a start value
 var behaviourSubject = BehaviorSubject<String>(value:"Just Sub 1")
-
+behaviourSubject.subscribe
 // This subscription will receive the Start Event
 let subscription1 = behaviourSubject.subscribe {
     print(#line,$0)
@@ -26,6 +26,12 @@ behaviourSubject.onNext("Sub 1 & Sub 2")
 let subscription2 = behaviourSubject.subscribe{
     print(#line,$0)
 }.addDisposableTo(bag)
+
+let concurrentScheduler = ConcurrentDispatchQueueScheduler(qos: .background)
+let subOnOtherThread = behaviourSubject.observeOn(concurrentScheduler).subscribe {
+    print("Hello World")
+    print(Thread.current)
+}
 
 // This will emit to both subscriptions
 behaviourSubject.onNext("Sub 1 & Sub 2 again")

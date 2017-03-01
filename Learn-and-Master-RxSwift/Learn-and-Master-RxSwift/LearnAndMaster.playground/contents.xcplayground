@@ -7,6 +7,9 @@
         <page name='4.ReplaySubject'/>
         <page name='5.Variable'/>
         <page name='6.Transform Observable Sequences'/>
+        <page name='7.Filter'/>
+        <page name='8.Combining'/>
+        <page name='9. Multithreading'/>
         <page name='Misc'/>
     </pages>
 </playground>
