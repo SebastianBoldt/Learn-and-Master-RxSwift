@@ -3,6 +3,7 @@
 import Foundation
 import RxSwift
 
+let bag = DisposeBag()
 // Merge 
 
 let publish1 = PublishSubject<Int>()
@@ -20,6 +21,23 @@ publish2.onNext(1)
 publish1.onNext(80)
 publish1.onNext(100)
 publish2.onNext(1)
+
+let fetch1 = PublishSubject<Int>()
+let fetch2 = PublishSubject<String>()
+
+Observable<(Int,String)>.zip(fetch1, fetch2) { (a, b) throws -> (Int,String) in
+    return (a,b)
+}.subscribe {
+    print($0)
+}
+
+fetch1.onNext(1)
+fetch1.onNext(2)
+fetch2.onNext("Hello")
+fetch2.onNext("World")
+fetch2.onNext("Again")
+fetch1.onNext(3)
+
 
 
 
