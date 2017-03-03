@@ -10,6 +10,7 @@
         <page name='7.Filter'/>
         <page name='8.Combining'/>
         <page name='9. Multithreading'/>
+        <page name='10. Side Effects'/>
         <page name='Misc'/>
     </pages>
 </playground>

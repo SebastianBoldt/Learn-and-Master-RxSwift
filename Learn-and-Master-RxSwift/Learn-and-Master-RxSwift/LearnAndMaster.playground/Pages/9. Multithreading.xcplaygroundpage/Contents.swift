@@ -11,7 +11,7 @@ let publish1 = PublishSubject<Int>()
 let publish2 = PublishSubject<Int>()
 
 let concurrentScheduler = ConcurrentDispatchQueueScheduler(qos: .background)
-Observable.of(publish1,publish2).merge().observeOn(concurrentScheduler).subscribe(onNext:{
+Observable.of(publish1,publish2).observeOn(concurrentScheduler).merge().subscribeOn(MainScheduler()).subscribe(onNext:{
     print($0)
 })
 

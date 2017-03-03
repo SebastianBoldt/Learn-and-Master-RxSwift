@@ -38,7 +38,9 @@ fetch2.onNext("World")
 fetch2.onNext("Again")
 fetch1.onNext(3)
 
-
+Observable.of(3,4,5).startWith(0,1,2).subscribe(onNext:{
+    print($0)
+})
 
 
 //: [Next](@next)
