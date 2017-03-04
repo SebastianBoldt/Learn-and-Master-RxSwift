@@ -1,6 +1,6 @@
 # Learn and Master RxSwift
 This is curated workspace to learn the RxSwift. It contains Playgrounds that helps you with understanding the Basisc ot the Rx-Concept.
-This is just the accompyning Material for this post on Medium: 
+This is just the accompanying material for this post on Medium: 
 [CLICK HERE](https://medium.com/@sebastianbo/learn-and-master-%EF%B8%8F-the-basics-of-rxswift-in-10-minutes-818ea6e0a05b#.chlo1248g)
 
 The first thing you need to understand is that everything in RxSwift is an observable sequence or something that operates on or subscribes to events emitted by an observable sequence. Arrays, Strings or Dictionaries will be converted to observable sequences in RxSwift. You can create an own observable sequence of an Instance of any type that conforms to the to the Sequence Protocol from the Swift Standard Library.
