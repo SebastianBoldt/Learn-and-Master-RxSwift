@@ -43,4 +43,10 @@ Observable.of(3,4,5).startWith(0,1,2).subscribe(onNext:{
 })
 
 
+let a = Observable.of(1,2,3,4,5)
+let b = Observable.of("a","b","c","d")
+Observable.zip(a,b){ return ($0,$1) }.subscribe(onNext:{
+    print($0)
+})
+
 //: [Next](@next)

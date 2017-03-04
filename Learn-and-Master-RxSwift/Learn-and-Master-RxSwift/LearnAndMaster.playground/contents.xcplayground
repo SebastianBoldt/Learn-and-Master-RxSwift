@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
+        <page name='Misc'/>
         <page name='1.Basics'/>
         <page name='2.PublishSubject'/>
         <page name='3.Behaviour Subject'/>
@@ -11,6 +12,5 @@
         <page name='8.Combining'/>
         <page name='9. Multithreading'/>
         <page name='10. Side Effects'/>
-        <page name='Misc'/>
     </pages>
 </playground>

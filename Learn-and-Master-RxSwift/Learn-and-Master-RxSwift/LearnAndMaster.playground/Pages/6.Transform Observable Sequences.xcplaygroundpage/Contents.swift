@@ -39,7 +39,7 @@ sequence3.scan(0) { seed, value in
       print($0)
 })
 
-Observable.of(1,2,3,4,5,6,7,8,9).buffer(timeSpan: 1, count: 3, scheduler: MainScheduler()).subscribe(onNext:{
+Observable.of(1,2,3,4,5,6,7,8,9).buffer(timeSpan: 0.01, count: 3, scheduler: MainScheduler()).subscribe(onNext:{
     print($0)
 })
 

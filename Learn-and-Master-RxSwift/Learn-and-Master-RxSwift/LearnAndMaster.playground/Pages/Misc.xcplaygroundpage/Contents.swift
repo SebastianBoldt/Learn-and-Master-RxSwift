@@ -7,15 +7,13 @@ import PlaygroundSupport
 
 PlaygroundPage.current.needsIndefiniteExecution
 
-exampleOf(description: "error") {
-    enum RxError: Error {
-        case Test
-    }
-    
-    Observable<Int>.error(RxError.Test).subscribe({
-        print($0)
-    })
+enum RxError: Error {
+    case Test
 }
+
+Observable<Int>.error(RxError.Test).subscribe({
+    print($0)
+})
 
 
 
